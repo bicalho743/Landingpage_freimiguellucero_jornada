@@ -1203,6 +1203,14 @@
       text-transform: uppercase;
     }
 
+    .checkout-note {
+      margin: 22px auto 0;
+      max-width: 520px;
+      font-size: 0.85rem;
+      opacity: 0.8;
+      line-height: 1.5;
+    }
+    .footer-legal { margin-top: 10px; }
     footer a:hover {
       color: var(--gold);
     }
@@ -1273,6 +1281,13 @@
 
       .hero-social-proof {
         justify-content: center !important;
+        white-space: normal;
+        max-width: 100%;
+      }
+
+      .hero-sub-center {
+        letter-spacing: 2px;
+        font-size: 11px;
       }
 
       .hero h1 {
@@ -1467,14 +1482,7 @@
 
   <!-- TOPBAR -->
   <div class="topbar">
-    <span>🔥 OFERTA DE LANÇAMENTO — ENCERRA EM:</span>
-    <div class="countdown-inline">
-      <span class="cd-unit" id="h">11</span>
-      <span class="cd-sep">:</span>
-      <span class="cd-unit" id="m">47</span>
-      <span class="cd-sep">:</span>
-      <span class="cd-unit" id="s">33</span>
-    </div>
+    <span>Acesso imediato · Garantia de 7 dias · Pagamento seguro via Kiwify</span>
   </div>
 
   <!-- NAV -->
@@ -1504,7 +1512,7 @@
             <div class="proof-avatar pa2">J</div>
             <div class="proof-avatar pa3">A</div>
           </div>
-          <div class="proof-text">Mais de 131.000 pessoas acompanham o Frei Miguel nas redes</div>
+          <div class="proof-text">Acompanhado por milhares de pessoas nas redes</div>
         </div>
 
         <div class="hero-sub-center">Diário do Despertar — 21 dias com Deus</div>
@@ -1788,10 +1796,10 @@
             O Orientador
           </span>
           <h3 class="guide-name">Frei Miguel Lucero</h3>
-          <span class="guide-role">Profeta Gentil · Ordem Franciscana</span>
+          <span class="guide-role">Profeta Gentil · Inspirado na espiritualidade franciscana</span>
           
           <p class="guide-bio">
-            Frei Miguel Lucero é um religioso franciscano dedicado a guiar almas cansadas que perderam o rumo no barulho do cotidiano. Ele não fala a partir de uma posição de julgamento ou regras frias, mas sim com a <strong>proximidade e acolhimento</strong> de quem conhece os pesos e dores que você carrega.
+            Frei Miguel Lucero é um personagem inspirado na espiritualidade franciscana, criado para guiar almas cansadas que perderam o rumo no barulho do cotidiano. Ele não fala a partir de uma posição de julgamento ou regras frias, mas sim com a <strong>proximidade e acolhimento</strong> de quem conhece os pesos e dores que você carrega.
           </p>
           <p class="guide-bio">
             Inspirado pela simplicidade de São Francisco de Assis, Frei Miguel prega o retorno à quietude espiritual. Seu bordão e assinatura exclusiva marcam as suas reflexões diretas e profundas nas redes sociais, que já alcançam milhares de fiéis em busca de silêncio e orações de poder.
@@ -1803,8 +1811,8 @@
               <div class="g-stat-lbl">De percurso guiado</div>
             </div>
             <div>
-              <div class="g-stat-num">131k+</div>
-              <div class="g-stat-lbl">Seguidores nas redes</div>
+              <div class="g-stat-num">10 min</div>
+              <div class="g-stat-lbl">Por dia</div>
             </div>
           </div>
         </div>
@@ -1812,7 +1820,8 @@
     </div>
   </section>
 
-  <!-- SECTION TESTIMONIALS -->
+  <!-- SEÇÃO DE DEPOIMENTOS OCULTA: publicar apenas depoimentos reais de compradores, com autorização.
+<!- - SECTION TESTIMONIALS - ->
   <section class="testi-section" id="testemunhos">
     <div class="container-wide">
       <span class="eyebrow">
@@ -1829,7 +1838,7 @@
         
         <div class="testi-horiz-outer">
           <div class="testi-horiz-track" id="testi-track">
-            <!-- Card 1 -->
+            <!- - Card 1 - ->
             <div class="testi-card">
               <div class="testi-stars">★★★★★</div>
               <p class="testi-quote">
@@ -1838,7 +1847,7 @@
               <div class="testi-author">Maria Helena, MG</div>
             </div>
 
-            <!-- Card 2 -->
+            <!- - Card 2 - ->
             <div class="testi-card">
               <div class="testi-stars">★★★★★</div>
               <p class="testi-quote">
@@ -1847,7 +1856,7 @@
               <div class="testi-author">Roberto C., SP</div>
             </div>
 
-            <!-- Card 3 -->
+            <!- - Card 3 - ->
             <div class="testi-card">
               <div class="testi-stars">★★★★★</div>
               <p class="testi-quote">
@@ -1856,7 +1865,7 @@
               <div class="testi-author">Ana Flávia, BA</div>
             </div>
             
-            <!-- Card 4 -->
+            <!- - Card 4 - ->
             <div class="testi-card">
               <div class="testi-stars">★★★★★</div>
               <p class="testi-quote">
@@ -1871,6 +1880,8 @@
       </div>
     </div>
   </section>
+
+  -->
 
   <!-- SECTION GUARANTEE -->
   <section class="guarantee-section">
@@ -1954,6 +1965,7 @@
       </p>
       
       <a href="https://pay.kiwify.com.br/CmDZNfS" class="btn-main">Quero começar hoje</a>
+      <p class="checkout-note">No pagamento, o pacote aparece como <strong>“Caminhando com Deus — Uma Jornada de Cura”</strong>: é o Diário do Despertar com todos os bônus.</p>
       
       <div class="final-meta">
         Garantia de 7 dias · Pagamento Seguro via Kiwify · Acesso Vitalício
@@ -1978,7 +1990,11 @@
       <a href="#frei">Frei Miguel</a> · 
       <a href="#faq">Dúvidas</a>
     </p>
+    <p class="footer-legal">
+      <a href="privacidade.html">Política de Privacidade</a> · <a href="termos.html">Termos de Uso</a> · <a href="mailto:contato@freimiguellucero.com.br">contato@freimiguellucero.com.br</a>
+    </p>
     <div class="disclaimer">
+      Frei Miguel Lucero é um personagem criado para conteúdo de reflexão espiritual, sem vínculo com a Ordem Franciscana ou com a Igreja.
       Este material destina-se a fins de reflexão espiritual pessoal. Os resultados podem variar de pessoa para pessoa de acordo com a interiorização do método de oração e recolhimento no silêncio.
     </div>
   </footer>
@@ -2028,7 +2044,9 @@
       });
     });
 
-    // Testimonials Carousel
+    // Testimonials Carousel (só roda se a seção de depoimentos estiver publicada)
+    if (document.getElementById('testi-track')) {
+
     const track = document.getElementById('testi-track');
     const cards = document.querySelectorAll('.testi-card');
     const prevBtn = document.getElementById('testi-prev');
@@ -2077,24 +2095,7 @@
     window.addEventListener('resize', updateCarousel);
     // Init carousel alignment
     setTimeout(updateCarousel, 300);
-
-    // Countdown Timer (Increments to tomorrow, simulating live urgency)
-    function updateCountdown() {
-      const now = new Date();
-      const tomorrow = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
-      const diff = tomorrow - now; // ms until midnight
-
-      const hours = Math.floor(diff / (1000 * 60 * 60));
-      const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-      const seconds = Math.floor((diff % (1000 * 60)) / 1000);
-
-      document.getElementById('h').textContent = String(hours).padStart(2, '0');
-      document.getElementById('m').textContent = String(minutes).padStart(2, '0');
-      document.getElementById('s').textContent = String(seconds).padStart(2, '0');
     }
-
-    setInterval(updateCountdown, 1000);
-    updateCountdown();
-  </script>
+</script>
 </body>
 </html>
